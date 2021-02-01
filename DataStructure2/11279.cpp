@@ -1,7 +1,16 @@
+/*  BOJ - 11279 : 최대 힙
+    01.February.2021
+ */
+
+/*  [Max Heap 구현]
+    # 시간초과
+    cin.tie(NULL); // cin과 cout의 tie 해제 (입출력 순서 보장 불가)
+    ios_base::sync_with_stdio(false); // C의 stdio와 동기화 해제 -> C++ 독립 버퍼 사용 -> printf, scanf 사용 불가
+    미사용 시 시간초과, 사용 시 성공(16ms)
+ */
+
 #include <iostream>
 using namespace std;
-
-
 
 int heap[100001];
 int sizeIdx = 0;
