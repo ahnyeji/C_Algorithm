@@ -1,5 +1,7 @@
 /*  BOJ - 1655 : 가운데를 말해요
     04.February.2021
+
+    (03.February.2021 Live Problem Solving)
  */
 
 /*  [Priority Queue]
