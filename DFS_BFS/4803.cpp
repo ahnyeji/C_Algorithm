@@ -25,8 +25,8 @@ void dfs(int idx){
     nodes++;
     int len = trees[idx].size();
     for(int i = 0; i < len; i++){
-        edges++;
-        if(!check[trees[idx][i]]){
+        edges++; // count all edges regardless of visit
+        if(!check[trees[idx][i]]){ // only not visited node
             dfs(trees[idx][i]);
         }
     }
