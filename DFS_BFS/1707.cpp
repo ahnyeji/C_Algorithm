@@ -1,6 +1,6 @@
 /*  BOJ - 1707 : 이분 그래프
     03.March.2021
-    (03.March.2021 Live Problem Solving)
+    (28.February.2021 Live Problem Solving)
  */
 
 /*  [BFS]
