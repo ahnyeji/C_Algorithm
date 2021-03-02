@@ -18,8 +18,10 @@ int N, M;
 int A[100001];
 
 int main(){
+    // Time Over without this part
     cin.tie(NULL);
     ios_base::sync_with_stdio(false);
+    
     cin >> N;
 
     for(int i = 0; i < N; i++){
